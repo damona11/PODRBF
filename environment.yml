@@ -1,0 +1,14 @@
+name: podrbf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - xarray
+  - dask
+  - zarr
+  - pandas
+  - matplotlib
+  - h5py
+prefix: C:\Users\a_dam\miniforge3\envs\podrbf
