@@ -1,8 +1,9 @@
+# scripts/make_cylinder_case.py
+
 from pathlib import Path
 import sys
 sys.path.append(str(Path(__file__).resolve().parents[1] / "src"))
-from podrbf.create_cylinder_data import create_cylinder_dataset
-
+from podrbf.data_handling.create_cylinder_data import create_cylinder_dataset
 
 def main():
     output_dir = Path("data/synthetic")
