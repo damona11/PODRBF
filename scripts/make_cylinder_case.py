@@ -1,7 +1,7 @@
 from pathlib import Path
 import sys
 sys.path.append(str(Path(__file__).resolve().parents[1] / "src"))
-from podrbf.synthetic import create_cylinder_dataset
+from podrbf.create_cylinder_data import create_cylinder_dataset
 
 
 def main():
